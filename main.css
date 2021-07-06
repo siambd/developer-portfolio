@@ -7,12 +7,18 @@ body
 h1{
     font-size: 50px;
 }
-span{
+
+h2{
+    font-size: 40px;
+}
+
+.orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display:flex;
 }
+
 .half-wight{
     width: 50%;
     padding-left: 6%;
@@ -23,7 +29,7 @@ section{
 }
 .li-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(19, 245, 188), rgb(27, 27, 211));
+    background-image: linear-gradient(rgb(255, 0, 157),cyan);
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
@@ -31,7 +37,7 @@ section{
 }
 .gh-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(11, 62, 173), rgb(10, 238, 124));
+    background-image: linear-gradient(rgb(255, 2, 242), rgb(10, 238, 124));
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
@@ -46,4 +52,43 @@ section{
     background-image:url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-margin{
+    margin-left: 20px;
+    padding-top: 39px;
+}
+.deb-catgory{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2px;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 20px;
+    padding-right: 20px;
+
+   
+
+}
+.experience-area{
+    background-image:url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 40px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan, pink);
+    border-image-slice:1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue, pink);
+    border-image-slice:1;
+}
+
+footer p{
+    text-align: center;
+    margin-top:  70px;
+    padding-top: 60px;
 }
